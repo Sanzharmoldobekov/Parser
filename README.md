@@ -7,7 +7,7 @@ $ python3 -m venv venv
 $ . venv/bin/activate
 
 # Install dependencies
-$ pip install requirements.txt
+$ pip install Beautifulsoup4 Pandas lxml
 
 # Run the app
-$ python3 main.py
+$ python3  parser_city.py or  parser_newws.py or  parser_valuta.py
