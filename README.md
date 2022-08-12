@@ -1,11 +1,9 @@
 # Parser
 # Clone this repository
-$ git clone git@github.com:bekaneo/cities.git
-or
-$ git clone https://github.com/bekaneo/cities.git
+$ git clone github.com/Sanzharmoldobekov/Parser
 
 # Go into the repository
-$ cd cities
+$ cd 
 
 # Install and activate venv
 $ python3 -m venv venv
