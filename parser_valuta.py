@@ -5,6 +5,8 @@ import pprint
 import pandas as pd
 import re
 import lxml
+from datetime import datetime
+
 
 url = 'https://www.akchabar.kg/ru/exchange-rates/'
 req = requests.get(url)
