@@ -24,4 +24,4 @@ for tr in table_rows:
 #pandas
 tim = soup.find("div",id='rates').find('strong')
 df = pd.DataFrame(res,columns=('','USD','USD','EURO','EURO','RUB','RUB','KZT','KZT'))
-df.to_csv('table_valut_02.csv',sep=';')
+df.to_csv(f'{datetime.now().date()}_valut.csv', sep=';')
